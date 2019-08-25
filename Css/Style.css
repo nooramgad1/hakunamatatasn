@@ -1,0 +1,48 @@
+body {
+color: rgb(65, 75, 86);
+background-image: url("./background.jpg");
+font-family: sans-serif;
+margin: 0px;
+}
+h1,h2 {
+text-align:center ;
+}
+h1 {
+  font-size: 5em;
+}
+li#uniquename {
+  color: green;
+}
+li#uniqueclass{
+  color: blue;
+}
+li:hover {
+  font-size: 1.2em;
+  transition: 0.6s ease;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.d-block w-100{
+  width:30px;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* diva {
+  text-align: center;
+}
+divb{
+  text-align: right;
+}
+divc{
+  text-align: left;
+}
+divc {
+  text-align: justify;
+} */
